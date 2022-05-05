@@ -24,3 +24,18 @@
 .chart-container{
     width: 70%;
 }
+@media screen and (max-width:1200px) {
+    .expanded-card{
+        top: 2rem;
+        left: 6rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .expanded-card {
+      top: 8rem;
+      height: 50%;
+      left: 25px;
+      width: 80%;
+      justify-content: center;
+    }
+  }

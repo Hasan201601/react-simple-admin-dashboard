@@ -41,3 +41,14 @@
     overflow-y: scroll;
   }
 }
+@media screen and (max-width: 768px) {
+  .app-glass{
+    height: 99%;
+    width: 99%;
+    border-radius: .5rem;
+    grid-template-columns: 1fr;
+  }
+  .app-glass::-webkit-scrollbar{
+    display: none;
+  } 
+}
